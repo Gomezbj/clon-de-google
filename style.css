@@ -1,0 +1,273 @@
+
+html {
+	max-width: 100%;
+}
+
+body {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Aria, Helvetical, sans-serif;
+}
+
+
+header {
+	width: 100%;
+	height: 20px;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav .nav-right {
+	width: 250px;
+	height: auto;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+}
+
+.nav-right .border-logo{
+	border-radius: 0%;
+	-webkit-border-radius: 0%;
+	-moz-border-radius: 0%;
+	-ms-border-radius: 0%;
+	-o-border-radius: 0%;
+	width: auto;
+	height: 3rem;
+	margin: 0%;
+	padding: 0%;
+}
+
+nav .nav-right a {
+	margin-right: 1rem;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+img {
+	max-width: 90%;
+	height: auto;
+}
+
+nav .nav-right .menu-ico{
+	max-width: 70%;
+}
+
+nav .nav-right .menu-icon {
+	background-image: url("https://cdn-icons-png.flaticon.com/512/60/60991.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+nav .nav-right img{
+	border-radius: 50%;
+	margin-left: 1rem;
+}
+main {
+	margin-top: 100px;
+	text-align: center;
+}
+
+main .main-logo{
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+
+main .main-logo img {
+	width: 300px;
+}
+
+main .main-input {
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+main .main-input-container {
+	width: 525px;
+	border-radius: 10rem;
+	border: 1px solid #cdd0d5;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5px 0 5px;
+}
+
+main .main-input input {
+	width: 455px;
+	height: 40px;
+	border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+	box-shadow: 1px 1px 6px 0 #0141069e;
+	border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+	background-image: url("https://freeiconshop.com/wp-content/uploads/edd/search-var-flat.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+	margin: auto 0;
+}
+
+main .main-input .micro-icon{
+	background-image: url("https://trendblog.net/wp-content/uploads/2022/01/unnamed.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 32px;
+	height: 32px;	
+	margin: auto 0;
+}
+
+main .main-bottons{
+	width: 530px;
+	margin: 0 auto;
+}
+
+main .main-bottons div{ 
+	display: inline-block;
+}
+
+main .mani-bottons {
+	height: 3.6rem;
+	margin: 0 auto;
+}
+
+.main-bottons a{
+	text-decoration: none;
+	color: #202124;
+}
+
+main .main-bottons button {
+	width: 10rem;
+	height: 2.5rem;
+	background-color: #f2f2f2;
+	border: 0;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 0 5px 0 5px;
+	padding: 0 15px;
+
+}
+	
+main .main-bottons button:hover{
+    border: 0 solid #dadce0;
+	box-shadow: 0 1px 4px 0 #c6c6c6;
+    color: #202124;
+    background-color: #f7f8f6;
+}
+
+.separación {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.comentario {
+	margin: 1rem 0 0 0;
+}
+
+.comentario .link{
+	text-decoration: none;
+	color: #9b9b9b;
+}
+
+/* esto es el footer */
+
+footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	display: grid;
+	margin: 0;
+	grid-template-columns: 1fr 1fr;
+	font-size: 13px;
+	background-color: #dddddd;
+	border-top: 1px solid #bcbcbc;
+}
+
+footer ul {
+	margin: 17px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+
+}
+
+footer .footer-left{
+	justify-content: left;
+}
+
+footer .footer-right{
+	justify-content: right;
+}
+
+footer ul li a {
+	margin: 10px;
+	color: #5f6368;
+	text-decoration: none;
+}
+
+main .border-main {
+	margin: 0 auto;
+}
+
+/*esta parte sera el lugar a de opciones luego de hacer click en los enlaces*/
+
+
+
+.border-main{
+	border-color: 2px solid black;
+	border-radius: 15px;	
+	background-color: #bebebe;
+	width: 35rem;
+	height: 10rem;
+	padding: 1rem;
+	display: inline-grid; 
+	justify-content: center;
+}
+
+.border-main:hover{
+    border: 0 solid #dadce0;
+	box-shadow: 0 5px 4px 0 #c6c6c6;
+    color: #202124;
+    background-color: #d8dfff;
+
+}
+
+.copy {
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 2rem;
+}
+
+blockquote {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.comentario-index a{
+	text-decoration: none;
+	font-weight: 600;
+}
